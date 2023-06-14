@@ -128,10 +128,10 @@ S17 Summerhall 4
 S17 S16 4
 S17 S20 4
 S17 S21 4
-Blackhaven 25 6
-Blackhaven 26 6
-Blackhaven 34 6
-Blackhaven 35 6
+Blackhaven S25 6
+Blackhaven S26 6
+Blackhaven S34 6
+Blackhaven S35 6
 Summerhall S13 3
 Summerhall S16 4
 Summerhall S17 4
@@ -154,7 +154,7 @@ S25 S20 4
 S25 S21 4
 S25 S24 4
 S25 S26 6
-S25 S30 6
+S25 S33 6
 S25 Blackhaven 6
 S26 S21 4
 S26 S22 4
