@@ -87,7 +87,7 @@ class Graph:
         # end_node back to start_node. Note the use of a deque, which can
         # appendleft with O(1) performance.
         path = deque()
-        current_node = end_node
+        cost_list = deque
         while previous_node[current_node] is not None:
             path.appendleft(current_node)
             current_node = previous_node[current_node]

@@ -7,12 +7,14 @@ from datetime import timedelta
 import time
 
 
-nodemap = 'main_nodemap.txt'
 def movement(speed,start,end,sdatetime="now"):
-    #give move speed as if a fast day 
-    #default to current time
+    #use main node map
+    nodemap = 'main_nodemap.txt'
+    #read time
     if sdatetime == 'now':
         sdatetime=datetime.now()
+    elif isinstance(sdatetime,datetime):
+        pass
     else:
         sdatetime = datetime.strptime(sdatetime,'%d/%m/%y %H:%M:%S')
     #time formatted as 'MM/DD/YYYY HH:MM:SS'
@@ -20,20 +22,22 @@ def movement(speed,start,end,sdatetime="now"):
     graph = dm.Graph(nodemap)
     path,distance = graph.shortest_path(start,end)
     #calculate time based on whether you start in fast or slow day
-    delta=12*distance/speed
+    delta=48*distance/speed
     print('Total hours of travel is ',delta)
     end_time = sdatetime+timedelta(hours=delta)
-    print('end time is: ',str(end_time))
-    print(path)
+    print('end time is: ',str(end_time.isoformat(sep=' ',timespec='minutes')))
+    print(list(path))
     return path,end_time,delta
 
 
 def clean_movement(speed,start,end,sdatetime="now"):
+    nodemap = 'main_nodemap.txt'
     #movement with no print statements
-    #give move speed as if a fast day 
-    #default to current time
+    #read time
     if sdatetime == 'now':
         sdatetime=datetime.now()
+    elif isinstance(sdatetime,datetime):
+        pass
     else:
         sdatetime = datetime.strptime(sdatetime,'%d/%m/%y %H:%M:%S')
     #time formatted as 'MM/DD/YYYY HH:MM:SS'
@@ -41,7 +45,7 @@ def clean_movement(speed,start,end,sdatetime="now"):
     graph = dm.Graph(nodemap)
     path,distance = graph.shortest_path(start,end)
     #calculate time based on whether you start in fast or slow day
-    delta=12*distance/speed
+    delta=48*distance/speed
     end_time = sdatetime+timedelta(hours=delta)
     return path,end_time,delta
 
@@ -50,7 +54,7 @@ def land_frontend():
 #Initialise return order booleans
     ret = 'n'
     cont= 'y'
-    print('Land Movement Calculater, v0.1 Athina')
+    print('Land Movement Calculater, v1.1 Constantinople')
     while cont == 'y':
         #reset inputs
         strt = ''

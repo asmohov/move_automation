@@ -1,2 +1,6 @@
-S21/0/20 baratheon men at arms stopping everyone
-S2/S6/500 buckler army attacking
+S21*0*20 baratheon /u/mf-tepis
+S2*S6*500 buckler army on a bridge
+N580*N64*Moat Cailin
+R29*0*Random Tyrells
+V3*0*Random Belmore
+CL24*0*an angry goat

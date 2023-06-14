@@ -444,7 +444,7 @@ RL21 Riverrun r
 RL21 Mudgrave h
 RL21 RL16 h
 RL21 RL20 h
-TheTwins Hag’sMire s
+TheTwins Hag’s Mire r
 TheTwins RL5 h
 TheTwins RL6 h
 TheTwins RL8 r
@@ -457,7 +457,7 @@ RL1 RL3 s
 RL2 N73 s
 RL2 RL1 s
 RL2 RL3 s
-RL5 Hag’sMire s
+RL5 Hag’s Mire s
 RL5 TheTwins g
 RL5 RL6 h
 RL6 RL5 h
@@ -540,7 +540,7 @@ LHT RL23 r
 RL10 RL11 h
 RL10 RL8 r
 RL10 RL13 r
-RL13 RL 10 r
+RL13 RL10 r
 RL13 RL14 h
 RL13 RL15 h
 RL13 RL19 r
@@ -624,7 +624,7 @@ RL40 RL37 g
 RL40 C4 g
 RL40 Sow’sHorn r
 RL40 Briarwhite g
-UnnamedTown RL25 g
+UnnamedTown RL35 g
 UnnamedTown RL39 g
 UnnamedTown RL45 g
 RL43 RL44 g
