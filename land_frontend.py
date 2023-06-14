@@ -7,7 +7,7 @@ from datetime import timedelta
 import time
 
 
-nodemap = 'stormlands_node_map.txt'
+nodemap = 'main_nodemap.txt'
 def movement(speed,start,end,sdatetime="now"):
     #give move speed as if a fast day 
     #default to current time

@@ -27,6 +27,8 @@ class Graph:
         with open(filename) as fhandle:
             for line in fhandle:
                 #print(line)
+                if len(line.strip().split(" "))<3:
+                       print(line)
                 edge_from, edge_to, cost, *_ = line.strip().split(" ")
                 graph_edges.append((edge_from, edge_to, float(cost)))
 
