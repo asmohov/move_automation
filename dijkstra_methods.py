@@ -8,7 +8,7 @@ INFINITY = float("inf")
 
 
 class Graph:
-    def __init__(self, filename):
+    def __init__(self, filename,avoid_list = []):
         """Reads graph definition and stores it. Each line of the graph
         definition file defines an edge by specifying the start node,
         end node, and distance, delimited by spaces.
@@ -30,6 +30,8 @@ class Graph:
                 if len(line.strip().split(" "))<3:
                        print(line)
                 edge_from, edge_to, cost, *_ = line.strip().split(" ")
+                if edge_to in avoid_list:
+                    cost = 10000
                 graph_edges.append((edge_from, edge_to, float(cost)))
 
         self.nodes = set()
