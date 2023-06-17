@@ -69,9 +69,9 @@ def land_frontend():
         print('I.E. Wayfarer\'s Rest becomes WayfarersRest')
         strt = str(input('Enter starting province '))
         end = str(input('Enter ending province '))
-        opt_route = str(input('Use optimal Route? y/n'))
+        opt_route = str(input('Use optimal Route? y/n '))
         if opt_route != 'y':
-            avoid_list = str(input('Input provinces to avoid as a comma separated list'))
+            avoid_list = str(input('Input provinces to avoid as a comma separated list '))
             avoid_list.split(',')
         time = str(input('Enter time in DD/MM/YY HH:MM:SS format or enter \'now\' to use current time '))
         print('------------------------------------------------------------------')

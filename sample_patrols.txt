@@ -1,6 +1,7 @@
-S21*0*20 baratheon /u/mf-tepis
-S2*S6*500 buckler army on a bridge
 N580*N64*Moat Cailin
-R29*0*Random Tyrells
-V3*0*Random Belmore
-CL24*0*an angry goat
+RL25*V29*Bloody Gate
+LHT*RL30*LHT eastern bridge, controlled by Darry
+GoldenTooth*RL33*Golden Tooth
+Riverrun*RL21*Riverrun north bridge
+Riverrun*Honeytree*Riverrun east bridge
+KingsLanding*0*King's Landing
