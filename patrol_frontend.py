@@ -27,8 +27,8 @@ def patrol_frontend():
         end = str(input('Enter ending province '))
         opt_route = str(input('Use optimal Route? y/n '))
         if opt_route != 'y':
-            avd_lst = str(input('Input provinces to avoid as a comma separated list '))
-            avd_lst.split(',')
+            avd_list = str(input('Input provinces to avoid as a comma separated list '))
+            avd_list.split(',')
         time = str(input('Enter time in DD/MM/YY HH:MM:SS format or enter \'now\' to use current time '))
         
         print('------------------------------------------------------------------')
