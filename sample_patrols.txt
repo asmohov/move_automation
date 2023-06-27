@@ -1,7 +1,9 @@
-N580*N64*Moat Cailin
-RL25*V29*Bloody Gate
-LHT*RL30*LHT eastern bridge, controlled by Darry
-GoldenTooth*RL33*Golden Tooth
-Riverrun*RL21*Riverrun north bridge
-Riverrun*Honeytree*Riverrun east bridge
-KingsLanding*0*King's Landing
+N580*N64*Moat Cailin /u/JackassBarque
+RL25*V29*Bloody Gate /u/Vierwood
+LHT*RL30*LHT eastern bridge, controlled by Darry /u/ifyouseeklusi
+GoldenTooth*RL33*Golden Tooth /u/direwolfoftheline
+Riverrun*RL21*Riverrun north bridge /u/juteshire
+Riverrun*Honeytree*Riverrun east bridge /u/juteshire
+KingsLanding*C16*Blackwater Rush Bridge /u/demihwk
+Fairmarket*RaventreeHall*Fairmarket Bridge /u/rainb00trac00n
+TheTwins*0*The Twins /u/fistbumpguy1

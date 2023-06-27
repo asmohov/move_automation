@@ -406,7 +406,7 @@ N73 RL2 s
 N74 N71 r
 N74 N72 s
 N74 N73 s
-N74 Hag'sMire r
+N74 Sevenstreams r
 Flint'sFinger N66 h
 Flint'sFinger N67 h
 Flint'sFinger N61 g
@@ -444,20 +444,20 @@ RL21 Riverrun r
 RL21 Mudgrave h
 RL21 RL16 h
 RL21 RL20 h
-TheTwins Hag’s Mire r
+TheTwins Sevenstreams r
 TheTwins RL5 h
 TheTwins RL6 h
 TheTwins RL8 r
-Hag'sMire TheTwins r
-Hag'sMire RL5 h
-Hag'sMire N74 r
+Sevenstreams TheTwins r
+Sevenstreams RL5 h
+Sevenstreams N74 r
 RL1 N73 s
 RL1 RL2 s
 RL1 RL3 s
 RL2 N73 s
 RL2 RL1 s
 RL2 RL3 s
-RL5 Hag’s Mire s
+RL5 Sevenstreams s
 RL5 TheTwins g
 RL5 RL6 h
 RL6 RL5 h

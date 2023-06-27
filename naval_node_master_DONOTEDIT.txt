@@ -194,8 +194,14 @@ Driftmark CS145 w
 CS145 Driftmark p
 Driftmark CS153 w
 CS153 Driftmark p
-Driftmark CS154 w
-CS154 Driftmark p
+Hightide CS154 w
+CS154 Hightide p
+Hightide CS145 w
+Hightide CS153 w
+Hightide CS154 w
+CS154 Hightide p
+CS153 Hightide p
+CS145 Hightide p
 SharpPoint CS144 w
 CS144 SharpPoint p
 SharpPoint CS145 w
@@ -889,6 +895,7 @@ CS181 CS180 w
 CS181 CS184 w
 CS181 CS183 w
 CS181 OS36 a
+CS181 CS175 w
 CS182 CS181 w
 CS183 OS36 a
 CS183 CS181 w
